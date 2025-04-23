@@ -3,6 +3,11 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/miscomponentes/Header";
 
+
+
+
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,7 +29,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
+
+      
+      
       <body
       
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -32,7 +40,7 @@ export default function RootLayout({
         <header className="bg-white text-white p-4">
           <Header />
         </header>
-        <main className="container" style={{backgroundImage: "url('https://images.unsplash.com/photo-1454117096348-e4abbeba002c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JheSUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D')", backgroundSize: "cover"}}>{children}</main>
+        <main className="" >{children}</main>
         <footer></footer>
         
       </body>

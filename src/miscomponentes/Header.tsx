@@ -10,8 +10,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Header() {
     return (
-        
-            <NavigationMenu className="w-full bg-white text-black p-4 font-bold text-[16px] border">
+        <header className="w-full bg-white text-black p-4 font-bold text-[16px]">
+            <NavigationMenu className="w-full flex justify-between items-center ">
                 {/* Bloque del avatar y nombre */}
                 <div className="flex items-center space-x-4">
                     <Avatar>
@@ -22,7 +22,7 @@ export default function Header() {
                 </div>
 
                 {/* Menú de navegación */}
-                <NavigationMenuList className="flex space-x-8">
+                <NavigationMenuList className="flex space-x-25 me-[50px]">
                     <NavigationMenuItem>
                         <NavigationMenuLink
                             className="text-black hover:text-purple-500 font-bold"
@@ -49,6 +49,6 @@ export default function Header() {
                     </NavigationMenuItem>
                 </NavigationMenuList>
             </NavigationMenu>
-        
+        </header>
     );
 }

@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Removed Google Fonts import. Add it in the HTML <head> instead. */
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -117,6 +119,8 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground
+    ;
   }
 }
+
