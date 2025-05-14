@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/miscomponentes/Header";
+import { Source_Sans_3 } from "next/font/google";
+
+const sourceSans = Source_Sans_3({
+  variable: "--font-source-sans",
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+});
 
 
 
@@ -29,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" className={`${sourceSans.variable}`}>
 
       
       

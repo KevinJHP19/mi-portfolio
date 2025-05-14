@@ -10,8 +10,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Header() {
     return (
-        <header className="w-full bg-white text-black p-4 font-bold text-[16px]">
-            <NavigationMenu className="w-full flex justify-between items-center ">
+        <header className="fixed top-0 left-0 w-full bg-white text-black p-4 font-bold text-[16px] shadow-md border-b border-gray-200 z-50">
+            <NavigationMenu className="w-full flex justify-between items-center">
                 {/* Bloque del avatar y nombre */}
                 <div className="flex items-center space-x-4">
                     <Avatar>
