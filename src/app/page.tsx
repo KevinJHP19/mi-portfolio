@@ -27,8 +27,8 @@ export default function Home() {
         }}
         className="h-screen flex items-center justify-center text-BLACK text-5xl font-bold pb-[100px]"
       >
-        <div className="bg-opacity-50 p-10 rounded-lg">
-          <h1 className="text-center font-bold text-[70px]" tabIndex={0}>
+        <div className="bg-opacity-50 p-10 rounded-lg inicio">
+          <h1 className="text-center font-bold text-[70px] " tabIndex={0}>
             HOLA, YO SOY KEVIN HUAMAN.
           </h1>
           <div className="font-normal text-2xl md:m-[40px] md:ps-[100px] md:pe-[100px] lg:ps-[150px] xl:ps-[450px] xl:pe-[450px] text-gray-700">
