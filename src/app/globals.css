@@ -141,3 +141,7 @@ body{
   animation: slideUp 1s ease-out forwards;
   opacity: 0;
 }
+.parabout{
+  font-weight: 400 !important;
+
+}

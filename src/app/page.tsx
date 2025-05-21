@@ -13,7 +13,7 @@ export default function Home() {
   };
 
   return (
-    <div className="w-full">
+    <section  className="w-full">
       <div
         id="presentacion"
         tabIndex={0}
@@ -50,7 +50,7 @@ export default function Home() {
       </div>
       <div
         id="about"
-        className="bg-gray-100 text-black p-4 font-bold text-[16px] pt-[100px]"
+        className="bg-gray-100 text-black p-4 text-[16px] pt-[100px]"
         tabIndex={0}
         aria-label="Sección sobre mí"
       >
@@ -62,6 +62,6 @@ export default function Home() {
       >
         <VistaProyectos />
       </div>
-    </div>
+    </section>
   );
 }
