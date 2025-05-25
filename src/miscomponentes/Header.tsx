@@ -21,7 +21,7 @@ export default function Header() {
                 {/* Bloque del avatar y nombre */}
                 <div className="flex items-center space-x-4">
                     <Avatar>
-                        <AvatarImage src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR1moG_tK57SDoMvcfavVmT6PLzF8IwaHqzw&s" alt="avatar" />
+                        <AvatarImage src="Foto_mia_actual.png" alt="avatar" />
                         <AvatarFallback>KH</AvatarFallback>
                     </Avatar>
                     <span className="text-lg">KEVIN HUAMAN</span>

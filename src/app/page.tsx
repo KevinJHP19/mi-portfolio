@@ -1,11 +1,11 @@
 'use client';
 import React from 'react';
-import { useRouter } from 'next/navigation';
+
 import VistaAbout from "./about/Page";
 import VistaProyectos from "./proyects/page";
 
 export default function Home() {
-  const router = useRouter();
+  
 
   const navegarAProyectos = () => {
     const seccionProyectos = document.getElementById('proyectos');
@@ -13,7 +13,7 @@ export default function Home() {
   };
 
   return (
-    <div className="w-full">
+    <section  className="w-full">
       <div
         id="presentacion"
         tabIndex={0}
@@ -27,8 +27,8 @@ export default function Home() {
         }}
         className="h-screen flex items-center justify-center text-BLACK text-5xl font-bold pb-[100px]"
       >
-        <div className="bg-opacity-50 p-10 rounded-lg">
-          <h1 className="text-center font-bold text-[70px]" tabIndex={0}>
+        <div className="bg-opacity-50 p-10 rounded-lg inicio">
+          <h1 className="text-center font-bold text-[70px] " tabIndex={0}>
             HOLA, YO SOY KEVIN HUAMAN.
           </h1>
           <div className="font-normal text-2xl md:m-[40px] md:ps-[100px] md:pe-[100px] lg:ps-[150px] xl:ps-[450px] xl:pe-[450px] text-gray-700">
@@ -50,7 +50,7 @@ export default function Home() {
       </div>
       <div
         id="about"
-        className="bg-gray-100 text-black p-4 font-bold text-[16px] pt-[100px]"
+        className="bg-gray-100 text-black p-4 text-[16px] pt-[100px]"
         tabIndex={0}
         aria-label="Sección sobre mí"
       >
@@ -62,6 +62,6 @@ export default function Home() {
       >
         <VistaProyectos />
       </div>
-    </div>
+    </section>
   );
 }

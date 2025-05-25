@@ -126,4 +126,22 @@
 body{
   font-family: var(--font-source-sans);
 }
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+.inicio {
+  animation: slideUp 1s ease-out forwards;
+  opacity: 0;
+}
+.parabout{
+  font-weight: 400 !important;
+
+}
