@@ -1,11 +1,11 @@
 'use client';
 import React from 'react';
-import { useRouter } from 'next/navigation';
+
 import VistaAbout from "./about/Page";
 import VistaProyectos from "./proyects/page";
 
 export default function Home() {
-  const router = useRouter();
+  
 
   const navegarAProyectos = () => {
     const seccionProyectos = document.getElementById('proyectos');

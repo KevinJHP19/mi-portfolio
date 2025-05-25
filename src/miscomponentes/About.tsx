@@ -31,7 +31,7 @@ export default function About() {
                 <div id="mishabilidades" className="xl:w-1/2 xl:border-l px-6 py-4 mt-8 xl:mt-0" tabIndex={0}>
                     <h2 className="lg:text-start xs:text-center text-[28px]  font-semibold" tabIndex={0}>Mis habilidades</h2>
                     <ul className="mt-4 flex flex-wrap justify-start gap-3">
-                        <li className="flex items-center gap-2 px-6 py-2 bg-[#99999980] text-[#666666] rounded-lg shadow-sm" title="HTML">
+                        <li className="flex items-center gap-2 a px-6 py-2 bg-[#99999980] text-[#666666] rounded-lg shadow-sm" title="HTML">
                             <Image
                                 src="/icons8-html.svg"
                                 alt="HTML"
